@@ -34,7 +34,7 @@ required
 this value is used to run the integration tests. 
 
 To generate this value after you have entered your PUBLIC_KEY run the following command and paste the result into your .env file where it asks you to:
-rake test:setup
+	rake test:setup
 
 SESSION_SECRET
 
@@ -49,4 +49,4 @@ docker build -t docker-ollert .
 ### Run
  docker run -d -v [path to your .env file]/.env:/srv/ollert/.env -p 8080:4000 docker-ollert
 
-Now go to http://localhost:8080 and your good to go :)
+Now go to [http://localhost:8080](http://localhost:8080) and your good to go :)
