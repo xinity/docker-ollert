@@ -1,5 +1,7 @@
 FROM debian:wheezy
 
+MAINTAINER xinity <xinity77@gmail.com>
+
 # fix source bug
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
