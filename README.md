@@ -34,7 +34,7 @@ required
 this value is used to run the integration tests. 
 
 To generate this value after you have entered your PUBLIC_KEY run the following command and paste the result into your .env file where it asks you to:
-	rake test:setup
+``` rake test:setup ```
 
 SESSION_SECRET
 
