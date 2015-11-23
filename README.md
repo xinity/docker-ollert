@@ -2,7 +2,7 @@
 dockerized trello stats app ollert : https://github.com/sep/ollert
 
 ## Configuration
-to use the docker container, you just a .env which will your Environment variables:
+to use the docker container, you just need a .env in which you'll provide Environment variables needed:
 
 PUBLIC_KEY
 
